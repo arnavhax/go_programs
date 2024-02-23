@@ -4,8 +4,9 @@ package main
 import (
 	"fmt"
 )
-func findSquare(num int)int {
-	square:=num*num
+
+func findSquare(num int) int {
+	square := num * num
 	return square
 }
 func main() {
@@ -29,9 +30,7 @@ func main() {
 	// sum(5, 10)
 	// fmt.Printf("Type of function is %T\n", sum)
 
-
 	// anonymous function with return type
-
 
 	// var sum = func(n1 int, n2 int)int{
 	// 	return n1+n2
@@ -44,10 +43,10 @@ func main() {
 
 	//only an anonymous function can be declared inside a function
 
-	sum:= func(num1 int,num2 int)int{
+	sum := func(num1 int, num2 int) int {
 		return num1 + num2
 	}
 
-	result:=findSquare(sum(5,1))// declared before main
+	result := findSquare(sum(5, 1)) // declared before main
 	fmt.Printf("Result is %d\n", result)
 }
