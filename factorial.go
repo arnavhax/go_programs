@@ -14,5 +14,5 @@ func main() {
 	fmt.Println("Enter number to find factorial of")
 	var n int
 	fmt.Scan(&n)
-	fmt.Printf("Factorial of %d is %d", n, fact(n))
+	fmt.Printf("Factorial of %d is %d\n", n, fact(n))
 }
