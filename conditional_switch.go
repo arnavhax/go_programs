@@ -30,11 +30,10 @@ import (
 )
 
 func main() {
-	x := 3
-	switch x {
+	switch x:=3;x {// this is switch initialiser statement
 	case 1:
 		fmt.Println("1")
-		fallthrough
+		// fallthrough
 	case 3:
 		fmt.Println("3")
 		fallthrough// makes break void and directly executes next case
