@@ -21,9 +21,13 @@ func main() {
 
 	var str string = "Hello World"
 	var ind int
+	ind = strings.Index(str, "n")
+	fmt.Println("index is", ind)
 	ind = strings.Index(str, "W")
-	fmt.Println("index is",ind)
-	fmt.Println("Upper of string is",strings.ToUpper(str))
-	fmt.Println("Lower of string is",strings.ToLower(str))
+	fmt.Println("index is", ind)
+	fmt.Println("Upper of string is", strings.ToUpper(str))
+	fmt.Println("Lower of string is", strings.ToLower(str))
 
 }
+
+// slide no 234
