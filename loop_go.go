@@ -29,10 +29,12 @@ func main() {
 	// 	}
 	// }
 
-	multiplier:=1
-	for multiplier<=10{
-		product:=multiplier*5
-		fmt.Printf("5* %d == %d\n",multiplier,product)
-		multiplier++
-	}
+	// multiplier:=1
+	// for multiplier<=10{
+	// 	product:=multiplier*5
+	// 	fmt.Printf("5* %d == %d\n",multiplier,product)
+	// 	multiplier++
+	// }
+
+	
 }
