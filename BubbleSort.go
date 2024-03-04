@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"sort"
+	// "sort"
 )
 
 func main() {
@@ -19,8 +19,21 @@ func main() {
 	// }
 
 	// alternatively we can use sort function
-	sort.Ints(arr)
-	// can also sort Float64,String and etc.
-	// assignment to sort in descending order
-	fmt.Println(arr)
+	// `sort.Ints(arr)` is a function call that sorts the elements of the integer slice `arr` in ascending
+	// order. It uses the quicksort algorithm to efficiently rearrange the elements.
+	// sort.Ints(arr)
+	// // can also sort Float64,String and etc.
+	// // assignment to sort in descending order
+	// fmt.Println(arr)
+	
+	for i := 0; i < len(arr);i++ {
+		for j:=i+1;i<len(arr);j++ {
+			if(arr[i]==arr[j]){
+				fmt.Printf("%d is the repeated element\n",arr[i])
+				return
+			}
+		}
+	}
+	fmt.Println("No duplicate number found")
+
 }
