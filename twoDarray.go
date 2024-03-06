@@ -56,3 +56,7 @@ func main() {
 // add two matrix assignment
 // fibonacci using goto
 // power using go to
+// check palindrome using go to
+// prime no or not using go to and loop
+// implement binary search using go
+
