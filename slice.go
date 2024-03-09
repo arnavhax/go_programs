@@ -9,9 +9,9 @@ func main() {
 	// primeNumbers:=[] int {2,3,5,7}
 
 	// numbers:= [] int{1,2,3}
-	// 	// source destination
+	// soource destination
 	// copy(numbers,primeNumbers)
-	// // copies 3 elements only from primenumbers since size of numbers is 3
+	// copies 3 elements only from primenumbers since size of numbers is 3
 	// fmt.Print(numbers)
 
 
@@ -23,10 +23,8 @@ func main() {
 
 	// traversing slice using range()
 
-	// This code snippet in Go is demonstrating the concept of slices in Go. Here's a breakdown of what it
-	// does:
+	// array is fixed length but slice is flexible
 	// arr:=[5] int{2,3,4,5,6}
-	// //array with fixed length but slice is flexibl e
 
 	// intSlice:=arr[1:4]
 
@@ -35,15 +33,31 @@ func main() {
 	// 	fmt.Printf("Element at %d is %d\n",index,ele)
 	// }
 
-	slice:= [] string{"I","Am","Superman"}
-	sort.Strings(slice)
+	// slice:= [] string{"I","Am","Superman"}
+	// sort.Strings(slice)
 
-	fmt.Println("Sorted String slice")
+	// fmt.Println("Sorted String slice")
 
-	for _,item:=range slice{
-		fmt.Printf("%s\n",item)
-	}
+	// for _,item:=range slice{
+	// 	fmt.Printf("%s\n",item)
+	// }
+
+	// arr:= [] int{1,2,3,4}
+
+	// status:=sort.IntsAreSorted(arr)  
+	// ** To check if int slice is sorted
+	// if status{
+	// 	fmt.Println("Arr is sorted")
+	// }
+
+	
+
 
 
 
 }
+
+/* 
+/ * TODO: write a function  to check if a integer slice is 	sorrted or not
+
+*/
